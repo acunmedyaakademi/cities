@@ -1,0 +1,180 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", sans-serif;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+h2 {
+  font-size: 32px;
+  color: #ed5757;
+}
+
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 16px;
+}
+
+.city {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid lightcoral;
+}
+
+.foodContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  
+}
+
+.sehir {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 250px;
+  background-color: rgb(89, 186, 186);
+  color: #fff;
+  padding: 16px;
+}
+
+.sehir:hover {
+  background-color: rgb(217, 240, 240);
+  color: #000;
+}
+
+.food .sehir {
+  color: #FFFFFF;
+  background-color: #FF9600;
+}
+
+.food .sehir:hover {
+  background-color: #FF960090;
+}
+
+.food {
+  width: fit-content;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightcoral;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+
+}
+
+.foodContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.place {
+  width: fit-content;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightcoral;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+}
+
+.place .sehir {
+  color: rgba(19, 18, 18, 0.959);
+  background-color: #BCBDC0;
+}
+
+.place .sehir:hover {
+  background-color: #3a2a2a;
+  color: #fff;
+}
+
+.doublePlateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doublePlate {
+  width: fit-content;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightcoral;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+}
+
+.doublePlate .sehir {
+  background-color: burlywood;
+}
+
+.singleplateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singlePlate {
+  width: fit-content;
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid lightcoral;
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+}
+
+.singlePlate .sehir {
+  background-color: burlywood;
+  
+}
